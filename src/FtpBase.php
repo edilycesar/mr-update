@@ -56,7 +56,8 @@ class FtpBase {
     }
     
     public function transmite() 
-    {        
+    {       
+        
         $t = count($this->uConfig['uConfig']);
         $c = 1;
         foreach ($this->uConfig['uConfig'] as $key => $uConfigI) {            
@@ -80,14 +81,16 @@ class FtpBase {
         if ($this->ftp->connect() !== true) {
             $this->errorC++;
         } else {
+            
             foreach ($uConfigI['folders'] as $dir) {
                 $path = $uConfigI['basePath'] . "/" . $dir;
-                echo "\n  Dir: " . $path; 
+                echo "\n Dir: " . $path; 
+                
                 $this->ftp->setCurrentDir($path);
                 //$this->ftp->listCurrentDir();
-                $this->backupDir($path);
+                $this->backupDir($path);                
                 $prefix = " {$i}/{$t} [{$uConfigI['name']}] ";
-                $this->uploadDir($path, $prefix);                
+                $this->uploadDir($path, $prefix, $uConfigI['basePath']);                
             }
         }        
         $this->ftp->disconnect();        
@@ -107,12 +110,23 @@ class FtpBase {
         }
     }
     
-    protected function uploadDir($dir, $prefix = '') 
+    protected function uploadDir($dir, $prefix = '', $basePath = '') 
     {
         //$dirName = str_replace("/", "", $dir);
         $dirName = $this->stripInitBars($dir);
-        $orig = $this->uConfig['srcPaths'][$dirName];
+        $basePath = $this->stripInitBars($basePath);
         
+        $index = $this->stripBasePath($dirName, $basePath);
+        
+        if (!isset($this->uConfig['srcPaths'][$index])) {
+            
+            print_r($this->uConfig['srcPaths']);
+            
+            die("\n\n*** ERRO srcPaths, index não encontrado:  " . $index . "\n\n");
+        }
+        
+        $orig = $this->uConfig['srcPaths'][$index];
+     
         $dest = $dir;
         
         $this->ftp->upload($orig, $dest, $prefix);
@@ -126,10 +140,17 @@ class FtpBase {
     
     protected function stripInitBars($path) 
     {
+        $path = trim($path);
         while (strpos($path, "/") !== false && (int)strpos($path, "/") === 0) {
             $path = substr($path, 1);
         }
         return $path;
+    }
+    
+    protected function stripBasePath($path, $basePath) 
+    {
+        $path2 = str_replace($basePath, "", $path);
+        return $this->stripInitBars($path2);
     }
     
     public function delBkps() 

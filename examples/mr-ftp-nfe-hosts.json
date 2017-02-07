@@ -3,8 +3,8 @@
 		"nfe": { 	
                         "name": "Débora",
 			"host": "ftp.forje.com.br",
-			"user": "nfe@nfe.forje.com.br", 
-			"pass": "uj1h8h17", 
+			"user": "", 
+			"pass": "", 
 			"port": "21", 
 			"basePath": "/",
 			"folders": ["app","public/css", "public/js"],
@@ -20,8 +20,8 @@
 		"mdl": { 
                         "name": "Yapa",
 			"host": "ftp.forje.com.br",
-			"user": "mdl@mdl.forje.com.br", 
-			"pass": "uj1h8h17", 
+			"user": "", 
+			"pass": "", 
 			"port": "21", 
 			"basePath": "/",
 			"folders": ["app","public/css", "public/js"],
