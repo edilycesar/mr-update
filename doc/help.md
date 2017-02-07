@@ -1,3 +1,7 @@
+# mr-update
+https://github.com/edilycesar/mr-update/archive/master.zip
+
+
 [mrupdate-send-files]
 
 Exemplo: php mrupdate-send-files.php -c mr-ftp-nfe-hosts.json
