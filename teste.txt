@@ -1,0 +1,125 @@
+
+ Host: ftp.forje.com.br
+  Dir: //app
+/media/dados/htdocs/edily/emissor-nfe/app é um diretório
+
+ Origem: /media/dados/htdocs/edily/emissor-nfe/app/routes.php
+ Destino: /app/routes.php
+
+ Origem: /media/dados/htdocs/edily/emissor-nfe/app/model
+ Destino: /app/model
+
+/media/dados/htdocs/edily/emissor-nfe/app/model é um diretório
+
+ Origem: /media/dados/htdocs/edily/emissor-nfe/app/model/NfeInfAdFisc.php
+ Destino: /app/model/NfeInfAdFisc.php
+
+ Origem: /media/dados/htdocs/edily/emissor-nfe/app/model/Cnae.php
+ Destino: /app/model/Cnae.php
+
+ Origem: /media/dados/htdocs/edily/emissor-nfe/app/model/Transportadora.php
+ Destino: /app/model/Transportadora.php
+
+ Origem: /media/dados/htdocs/edily/emissor-nfe/app/model/Permissao.php
+ Destino: /app/model/Permissao.php
+
+ Origem: /media/dados/htdocs/edily/emissor-nfe/app/model/NfeTag.php
+ Destino: /app/model/NfeTag.php
+
+ Origem: /media/dados/htdocs/edily/emissor-nfe/app/model/Teste.php
+ Destino: /app/model/Teste.php
+
+ Origem: /media/dados/htdocs/edily/emissor-nfe/app/model/Nfe.php
+ Destino: /app/model/Nfe.php
+
+ Origem: /media/dados/htdocs/edily/emissor-nfe/app/model/Ncm.php
+ Destino: /app/model/Ncm.php
+
+ Origem: /media/dados/htdocs/edily/emissor-nfe/app/model/Model.php
+ Destino: /app/model/Model.php
+
+ Origem: /media/dados/htdocs/edily/emissor-nfe/app/model/Log.php
+ Destino: /app/model/Log.php
+
+ Origem: /media/dados/htdocs/edily/emissor-nfe/app/model/Emissor.php
+ Destino: /app/model/Emissor.php
+
+ Origem: /media/dados/htdocs/edily/emissor-nfe/app/model/-NfeTransportadora.php
+ Destino: /app/model/-NfeTransportadora.php
+
+ Origem: /media/dados/htdocs/edily/emissor-nfe/app/model/Database.php
+ Destino: /app/model/Database.php
+
+ *** ERRO Erro ao enviar arquivo (Dest: /app/model/Database.php, Orig: /media/dados/htdocs/edily/emissor-nfe/app/model/Database.php)
+ Origem: /media/dados/htdocs/edily/emissor-nfe/app/model/Cfop.php
+ Destino: /app/model/Cfop.php
+
+ *** ERRO Erro ao enviar arquivo (Dest: /app/model/Cfop.php, Orig: /media/dados/htdocs/edily/emissor-nfe/app/model/Cfop.php)
+ Origem: /media/dados/htdocs/edily/emissor-nfe/app/model/NfeInfAdCont.php
+ Destino: /app/model/NfeInfAdCont.php
+
+ *** ERRO Erro ao enviar arquivo (Dest: /app/model/NfeInfAdCont.php, Orig: /media/dados/htdocs/edily/emissor-nfe/app/model/NfeInfAdCont.php)
+ Origem: /media/dados/htdocs/edily/emissor-nfe/app/model/Destinatario.php
+ Destino: /app/model/Destinatario.php
+
+ *** ERRO Erro ao enviar arquivo (Dest: /app/model/Destinatario.php, Orig: /media/dados/htdocs/edily/emissor-nfe/app/model/Destinatario.php)
+ Origem: /media/dados/htdocs/edily/emissor-nfe/app/model/Usuario.php
+ Destino: /app/model/Usuario.php
+
+ *** ERRO Erro ao enviar arquivo (Dest: /app/model/Usuario.php, Orig: /media/dados/htdocs/edily/emissor-nfe/app/model/Usuario.php)
+ Origem: /media/dados/htdocs/edily/emissor-nfe/app/model/NfeReboque.php
+ Destino: /app/model/NfeReboque.php
+
+ *** ERRO Erro ao enviar arquivo (Dest: /app/model/NfeReboque.php, Orig: /media/dados/htdocs/edily/emissor-nfe/app/model/NfeReboque.php)
+ Origem: /media/dados/htdocs/edily/emissor-nfe/app/model/NfeInfAdProcRef.php
+ Destino: /app/model/NfeInfAdProcRef.php
+
+ *** ERRO Erro ao enviar arquivo (Dest: /app/model/NfeInfAdProcRef.php, Orig: /media/dados/htdocs/edily/emissor-nfe/app/model/NfeInfAdProcRef.php)
+ Origem: /media/dados/htdocs/edily/emissor-nfe/app/model/Produto.php
+ Destino: /app/model/Produto.php
+
+ *** ERRO Erro ao enviar arquivo (Dest: /app/model/Produto.php, Orig: /media/dados/htdocs/edily/emissor-nfe/app/model/Produto.php)
+ Origem: /media/dados/htdocs/edily/emissor-nfe/app/model/NfeVolume.php
+ Destino: /app/model/NfeVolume.php
+
+ *** ERRO Erro ao enviar arquivo (Dest: /app/model/NfeVolume.php, Orig: /media/dados/htdocs/edily/emissor-nfe/app/model/NfeVolume.php)
+ Origem: /media/dados/htdocs/edily/emissor-nfe/app/model/Cidade.php
+ Destino: /app/model/Cidade.php
+
+ *** ERRO Erro ao enviar arquivo (Dest: /app/model/Cidade.php, Orig: /media/dados/htdocs/edily/emissor-nfe/app/model/Cidade.php)
+ Origem: /media/dados/htdocs/edily/emissor-nfe/app/model/NfeDuplicata.php
+ Destino: /app/model/NfeDuplicata.php
+
+ *** ERRO Erro ao enviar arquivo (Dest: /app/model/NfeDuplicata.php, Orig: /media/dados/htdocs/edily/emissor-nfe/app/model/NfeDuplicata.php)
+ Origem: /media/dados/htdocs/edily/emissor-nfe/app/model/NfeProduto.php
+ Destino: /app/model/NfeProduto.php
+
+ *** ERRO Erro ao enviar arquivo (Dest: /app/model/NfeProduto.php, Orig: /media/dados/htdocs/edily/emissor-nfe/app/model/NfeProduto.php)
+ Origem: /media/dados/htdocs/edily/emissor-nfe/app/view
+ Destino: /app/view
+
+/media/dados/htdocs/edily/emissor-nfe/app/view é um diretório
+
+ *** ERRO Erro ao criar arquivo (/app/view)
+ Origem: /media/dados/htdocs/edily/emissor-nfe/app/lib
+ Destino: /app/lib
+
+/media/dados/htdocs/edily/emissor-nfe/app/lib é um diretório
+
+ *** ERRO Erro ao criar arquivo (/app/lib)
+ Origem: /media/dados/htdocs/edily/emissor-nfe/app/intercepts.php
+ Destino: /app/intercepts.php
+
+ *** ERRO Erro ao enviar arquivo (Dest: /app/intercepts.php, Orig: /media/dados/htdocs/edily/emissor-nfe/app/intercepts.php)
+ Origem: /media/dados/htdocs/edily/emissor-nfe/app/controller
+ Destino: /app/controller
+
+/media/dados/htdocs/edily/emissor-nfe/app/controller é um diretório
+
+ *** ERRO Erro ao criar arquivo (/app/controller)
+  Dir: //public/css
+ *** ERRO Erro ao renomear arquivo (//public/css, //public/css_bkp_2017-01-07 16-37-00)
+ *** ERRO Erro ao enviar arquivo (Dest: /public/css, Orig: )
+
+ FINALIZADO, OCORRERAM 1 ERROS
+

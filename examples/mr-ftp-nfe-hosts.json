@@ -1,0 +1,44 @@
+{
+	"uConfig": {
+		"nfe": { 	
+                        "name": "Débora",
+			"host": "ftp.forje.com.br",
+			"user": "nfe@nfe.forje.com.br", 
+			"pass": "uj1h8h17", 
+			"port": "21", 
+			"basePath": "/",
+			"folders": ["app","public/css", "public/js"],
+                        "dbDriver": "mysql",
+                        "dbHost": "forje.com.br",
+                        "dbUser": "forjecom_nfe",
+                        "dbPass": "uj1h8h17",
+                        "dbName": "forjecom_nfe",
+                        "dbCharset": "utf8", 
+                        "dbCollation": "utf8_unicode_ci", 
+                        "dbPrefix": ""
+		},
+		"mdl": { 
+                        "name": "Yapa",
+			"host": "ftp.forje.com.br",
+			"user": "mdl@mdl.forje.com.br", 
+			"pass": "uj1h8h17", 
+			"port": "21", 
+			"basePath": "/",
+			"folders": ["app","public/css", "public/js"],
+                        "dbDriver": "mysql",
+                        "dbHost": "forje.com.br",
+                        "dbUser": "forjecom_nfe_mdl",
+                        "dbPass": "uj1h8h17",
+                        "dbName": "forjecom_nfe_mdl",
+                        "dbCharset": "utf8", 
+                        "dbCollation": "utf8_unicode_ci", 
+                        "dbPrefix": ""
+		}
+	},
+
+	"srcPaths": {
+		"app":"/media/dados/htdocs/edily/emissor-nfe/app",
+		"public/css": "/media/dados/htdocs/edily/emissor-nfe/public/css",
+		"public/js" : "/media/dados/htdocs/edily/emissor-nfe/public/js"		
+	}
+}
